@@ -39,5 +39,11 @@ Berikut adalah hasilnya
 
 
 8.
+Buka file ` soal8-10.pcapng ` dan tulis argumen ` tcp ` ke dalam display filter
+![](pic/pic5.png)
+Kemudian klik kanan pada salah satu packet dan pilih follow -> tcp stream
+![](pic/pic6.png)
+Hasilnya adalah sebagai berikut
+![](pic/pic7.png)
 9.
 10.
