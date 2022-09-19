@@ -26,16 +26,16 @@ Menggunakan display filter `tcp.srcport == 443`
 ### 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Buka cmd dan tuliskan ` ipconfig ` 
-[](pic/pic1)
+[](pic/pic1.png)
 
 Selanjutnya pilih IPv4 sesuai dengan source yang mau ditangkap, saya memilih wi-fi
-[](pic/pic2)
+[](pic/pic2.png)
 
 Selanjutnya memasukkan argument ke capture filter wireshark, yaitu ` ip src (ip anda) `
-[](pic/pic3)
+[](pic/pic3.png)
 
 Berikut adalah hasilnya
-[](pic/pic4)
+[](pic/pic4.png)
 
 8.
 9.
