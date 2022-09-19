@@ -45,5 +45,7 @@ Kemudian klik kanan pada salah satu packet dan pilih follow -> tcp stream
 ![](pic/pic6.png)
 Hasilnya adalah sebagai berikut
 ![](pic/pic7.png)
+![](pic/pic8.png)
+![](pic/pic9.png)
 9.
 10.
