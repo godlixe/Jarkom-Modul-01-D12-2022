@@ -1,8 +1,32 @@
 # D12
 
-1.
-2.
-3.
+### 1. Soal 1
+Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
+
+#### Jawaban
+Cara untuk mendapatkan web server yang digunakan pada situs di atas adalah dengan meng-capture paket-paket terlebih dahulu, mengakses monta.if.its.ac.id, stop capture, lalu pada display filter kita gunakan filter “tcp contains monta” sehingga didapat seperti gambar di bawah. 
+![](pic/pic10.png)
+
+### 2. Soal 2
+Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
+
+#### Jawaban
+Kita akan mencari detail link yang diakses oleh Ishaq sehingga pada display filter kita menerapkan filter “http.request.uri contains "detail"” sehingga didapat hasil seperti di bawah.
+![](pic/pic11.png)
+
+Klik pada hasil capture paket untuk melihat detailnya didapat link yang diakses adalah http://monta.if.its.ac.id/index.php/topik/detailTopik/194. 
+![](pic/pic12.png)
+
+Ketika link tersebut diakses, muncul judul ta yang dibuka oleh Ishaq adalah “Topik Tugas Akhir”.
+![](pic/pic13.png)
+
+### 3. Soal 3
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+
+#### Jawaban
+Menggunakan display filter tcp.dstport == 80
+![](pic/pic14.png)
+
 ### 4. Soal 4
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
@@ -38,14 +62,20 @@ Berikut adalah hasilnya
 ![](pic/pic4.png)
 
 
-8.
+### 8. Soal 8
 Buka file ` soal8-10.pcapng ` dan tulis argumen ` tcp ` ke dalam display filter
 ![](pic/pic5.png)
+
 Kemudian klik kanan pada salah satu packet dan pilih follow -> tcp stream
 ![](pic/pic6.png)
+
 Hasilnya adalah sebagai berikut
 ![](pic/pic7.png)
+
 ![](pic/pic8.png)
+
 ![](pic/pic9.png)
-9.
-10.
+
+### 9. Soal 9
+
+### 10. Soal 10
