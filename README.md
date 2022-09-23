@@ -32,22 +32,27 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
 #### Jawaban
 
-Menggunakan display filter `tcp.srcport == 21`
+Menggunakan capture filter `src port 21`
+![](pic/pic15.png)
 
 ### 5. Soal 5
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 
 #### Jawaban
 
-Menggunakan display filter `tcp.srcport == 443`
+Menggunakan capture filter `src port 443`
+![](pic/pic16.png)
 
 ### 6. Soal 6
 Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id
+
 #### Jawaban
 
-Menggunakan display filter `tcp.srcport == 443`
+Menggunakan display filter `http contains lipi.go.id`
+![](pic/pic17.png)
 
-### 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+### 7. Soal 7
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Buka cmd dan tuliskan ` ipconfig ` 
 ![](pic/pic1.png)
