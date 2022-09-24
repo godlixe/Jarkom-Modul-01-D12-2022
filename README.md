@@ -99,3 +99,7 @@ Setelah disimpan dengan format raw, file kemudian didecode melalui openssl sebag
 Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
 JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}
 ![](pic/pic21.png)
+
+## Kendala Yang Dialami
+1. saat mendecode file hasil dari wireshark
+![](pic/pic22.png)
