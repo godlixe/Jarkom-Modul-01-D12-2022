@@ -82,5 +82,20 @@ Hasilnya adalah sebagai berikut
 ![](pic/pic9.png)
 
 ### 9. Soal 9
+Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
+
+Dari percakapan bisa diambil bahwa file dikirim melalui port 9002. Memasukkan argumen ke dalam display filter tcp.port == 9002
+![](pic/pic18.png)
+
+Kemudian klik kanan dari salah satu packet, follow -> tcp stream akan didapatkan sebagai berikut
+![](pic/pic19.png)
+
+Kemudian pilih show data as raw dan save file dengan [nama kelompok].des3 (D12.des3)
+
+Setelah disimpan dengan format raw, file kemudian didecode melalui openssl sebagai berikut 
+![](pic/pic20.png)
 
 ### 10. Soal 10
+Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}
+![](pic/pic21.png)
